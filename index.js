@@ -56,7 +56,7 @@ var ElectronEjs = function(data, options)
         if(exists === false)
         {
           //Emit error
-          self.emit("error", "File not found!");
+          // self.emit("error", "File not found!");
 
           //Return file not found
           return callback(-6);
